@@ -1,0 +1,67 @@
+
+.nav-links{
+  display: flex;
+  margin: 10px;
+  list-style-type:none ;
+}
+
+.navbar{
+  background-color: #355c7d;
+  width: 95vw;
+}
+
+
+.navbar li a{
+  font-size: 1.05rem;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sos_btn {
+    background: rgb(102,1,6);
+   background: linear-gradient(0deg, rgba(102,1,6,1) 0%, rgba(152,0,7,1) 50%, rgba(255,0,0,1) 100%);
+   width: 100px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100px;
+   box-shadow: 0px 50px 50px 5px grey;
+   cursor: pointer;
+   transition:.1s;
+   margin: 50px auto 0 auto;
+ }
+ 
+ .sos_btn_link {
+   width: 32px;
+   margin-left: -12px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color:  white;
+   font-size: 22px;
+   
+ }
+ 
+ div:hover {
+   background: rgb(102,1,6);
+ background: radial-gradient(circle, rgba(102,1,6,1) 0%, rgba(255,0,0,1) 0%, rgba(187,0,4,1) 63%);
+   box-shadow: 0px 0px 50px 5px grey;
+ }
+ 
+ div:active{
+ background: rgb(163,0,8);
+ background: radial-gradient(circle, rgba(163,0,8,1) 0%, rgba(187,0,4,1) 54%, rgba(255,0,0,1) 100%);
+   
+   box-shadow: none;
+ }
+ 
+ h2 {
+   margin: auto;
+   width: 330px;
+   font-family: sans-serif;
+   font-size: 25pt;
+   
+ }

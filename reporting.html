@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="broadcast.css">
+    <title>broadcast</title>
+</head>
+<body>
+    <div class="container">
+        <label>incident</label>
+        <input type="text" id="incident" placeholder="incident/hazard" required>
+        <label>description</label>
+        <textarea id="description" name="comments" rows="4" cols="50" placeholder="description..."></textarea>
+        <label>place</label>
+        <input type="text" id="place" placeholder="place">
+        <label>date of incident</label>
+        <input id="date" type="date" pattern="\d{4}-\d{2}-\d{2}">
+        <button class="submit">submit</button>
+    </div>
+    <script src="reporting.js"></script>
+</body>
+</html> 

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type:none ;
+    margin: 10px;
+}
+
+.navbar{
+    background-color: #355c7d;
+    width: 100%;
+}
+
+
+.navbar li a{
+    font-size: 1.05rem;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+
+.volunteer-card {
+    width: 350px;
+    background-color: #fff;
+    border: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+}
+
+.volunteer-header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.volunteer-body {
+    padding: 20px;
+}
+
+.volunteer-title {
+    margin: 0;
+    font-size: 26px;
+    color: #333;
+}
+
+.volunteer-description {
+    font-size: 16px;
+    margin: 15px 0 20px;
+    color: #666;
+}
+
+.volunteer-details {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.join-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.join-btn:hover {
+    background-color: #43a047;
+}

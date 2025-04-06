@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .nav-links{
+    display: flex;
+    list-style-type:none ;
+    margin: 10px;
+}
+
+.navbar{
+    background-color: #355c7d;
+    width: 100%;
+}
+
+
+.navbar li a{
+    font-size: 1.05rem;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fundraiser-card {
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .fundraiser-card h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+  }
+
+  .fundraiser-card p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .fundraiser-card .status {
+    font-weight: bold;
+    color: #28a745;
+  }
+
+  .fundraiser-card .amounts {
+    margin: 10px 0;
+    font-size: 0.95em;
+  }
+
+  .fundraiser-card .date {
+    font-size: 0.8em;
+    color: #999;
+  }
+
+  .donate-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .donate-button:hover {
+    background-color: #0056b3;
+  }
